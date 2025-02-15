@@ -6,14 +6,14 @@ function App() {
     <div className="container">
       <header>
         <nav className="navbar">
-          <h1>Title</h1>
+          <h1>Oxygen Not Included - Balance Sheet</h1>
         </nav>
       </header>
       
       <main>
         <div className="description">
           <p>
-            Welcome to our sci-fi inspired app! Experience an interface influenced by Oxygen Not Included’s unique aesthetic.
+            A balance sheet for Oxygen Not Included.
           </p>
         </div>
         
