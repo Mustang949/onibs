@@ -49,3 +49,48 @@ body {
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+/* Table Styling */
+.data-table {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #FF9B42; /* Warm orange accent */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #283845; /* Industrial blue-gray */
+  color: #F4E3C1; /* Warm beige */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 2px solid #3D5467; /* Steel blue */
+}
+
+th {
+  background-color: #3D5467; /* Muted steel blue */
+  color: #F4E3C1;
+  font-weight: bold;
+}
+
+td {
+  background-color: #1E1E2E; /* Dark blue-gray */
+}
+
+tr:hover {
+  background-color: #404E5C; /* Slightly lighter blue-gray */
+}
+
+/* Table Borders */
+table, th, td {
+  border: 1px solid #FF9B42; /* Warm orange accent */
+}
+
