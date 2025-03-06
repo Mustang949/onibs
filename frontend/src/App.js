@@ -28,6 +28,8 @@ function App() {
           <table>
             <thead>
               <tr>
+                <th</th>
+                <th>People and Things</th>
                 <th>O₂</th>
                 <th>CO₂</th>
                 <th>kcal</th>
@@ -39,22 +41,81 @@ function App() {
             </thead>
             <tbody>
               <tr>
-                <td>20%</td>
-                <td>5%</td>
+                <td>Total</td>
+                <td></td>
+                <td>-2 kg/cycle</td>
+                <td>300 g/cycle</td>
                 <td>2000</td>
-                <td>75°C</td>
-                <td>1200W</td>
-                <td>30L</td>
-                <td>15kg</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td>3 kg/cycle</td>
               </tr>
               <tr>
-                <td>18%</td>
-                <td>6%</td>
-                <td>1800</td>
-                <td>70°C</td>
-                <td>1100W</td>
-                <td>25L</td>
-                <td>12kg</td>
+                <td>Life Forms</td>
+                <td>Dupe 3</td>
+                <td>-2 kg/cycle</td>
+                <td>300 g/cycle</td>
+                <td>2000</td>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td>3 kg/cycle</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Add Trait</td>
+                <td>-</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Add Critter</td>
+                <td>-</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Add Plant</td>
+                <td>-</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Buildings</td>
+                <td>Add Building</td>
+                <td>-</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><Geysers</td>
+                <td>Add Geyser</td>
+                <td>-</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
               </tr>
             </tbody>
           </table>
