@@ -107,7 +107,7 @@ function App() {
                 <td></td>
               </tr>
               <tr>
-                <td><Geysers</td>
+                <td>Geysers</td>
                 <td>Add Geyser</td>
                 <td>-</td>
                 <td></td>
