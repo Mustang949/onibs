@@ -28,7 +28,7 @@ function App() {
           <table>
             <thead>
               <tr>
-                <th</th>
+                <th></th>
                 <th>People and Things</th>
                 <th>O₂</th>
                 <th>CO₂</th>
