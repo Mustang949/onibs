@@ -65,13 +65,13 @@ function Content() {
                     style={{ width: "50px", marginLeft: "5px" }} 
                   />
                 </td>
-                <td>{thing["Duplicant"]["O2"]} kg/cycle</td>
-                <td>{thing["Duplicant"]["CO2"]} kg/cycle</td>
-                <td>{thing["Duplicant"]["kcal"]} kg/cycle</td>
-                <td>{thing["Duplicant"]["Heat"]} kg/cycle</td>
-                <td>{thing["Duplicant"]["Power"]} kg/cycle</td>
-                <td>{thing["Duplicant"]["Polluted Water"]} kg/cycle</td>
-                <td>{thing["Duplicant"]["Polluted Dirt"]} kg/cycle</td>
+                <td>{dupeCount * thing["Duplicant"]["O2"]} kg/cycle</td>
+                <td>{dupeCount * thing["Duplicant"]["CO2"]} kg/cycle</td>
+                <td>{dupeCount * thing["Duplicant"]["kcal"]} kg/cycle</td>
+                <td>{dupeCount * thing["Duplicant"]["Heat"]} kg/cycle</td>
+                <td>{dupeCount * thing["Duplicant"]["Power"]} kg/cycle</td>
+                <td>{dupeCount * thing["Duplicant"]["Polluted Water"]} kg/cycle</td>
+                <td>{dupeCount * thing["Duplicant"]["Polluted Dirt"]} kg/cycle</td>
               </tr>
               <tr>
                 <td></td>
