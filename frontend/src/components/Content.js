@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Content() {
+  // State for dupe count, loaded from local storage if available
+  const [dupeCount, setDupeCount] = useState(() => {
+    return localStorage.getItem('dupeCount') || 3; // Default to 3
+  });
+
+  // Update local storage when dupeCount changes
+  useEffect(() => {
+    localStorage.setItem('dupeCount', dupeCount);
+  }, [dupeCount]);
+
   return (
      <main>
         <div className="description">
@@ -45,14 +55,22 @@ function Content() {
               </tr>
               <tr>
                 <td>Life Forms</td>
-                <td>Dupe 3</td>
-                <td>-2 kg/cycle</td>
-                <td>300 g/cycle</td>
-                <td>2000</td>
-                <td>1</td>
-                <td></td>
-                <td></td>
-                <td>3 kg/cycle</td>
+                <td>Dupe
+                  <input 
+                    type="number" 
+                    value={dupeCount} 
+                    onChange={(e) => setDupeCount(e.target.value)} 
+                    min="1" 
+                    style={{ width: "50px", marginLeft: "5px" }} 
+                  />
+                </td>
+                <td>thing["Duplicant"]["O2"] kg/cycle</td>
+                <td>thing["Duplicant"]["CO2"] kg/cycle</td>
+                <td>thing["Duplicant"]["kcal"] kg/cycle</td>
+                <td>thing["Duplicant"]["Heat"] kg/cycle</td>
+                <td>thing["Duplicant"]["Power"] kg/cycle</td>
+                <td>thing["Duplicant"]["Polluted Water"] kg/cycle</td>
+                <td>thing["Duplicant"]["Polluted Dirt"] kg/cycle</td>
               </tr>
               <tr>
                 <td></td>

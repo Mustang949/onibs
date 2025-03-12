@@ -1,0 +1,17 @@
+{
+ "Duplicant": {
+  "Category": "Life Forms",
+  "O2": -50,
+  "CO2": 1.09223,
+  "kcal": 1000,
+  "Polluted Water": 11.7,
+  "Polluted Dirt": 19.7
+ },
+ "Coal Generator": { 
+  "Category": "Power",
+  "Power": 600,
+  "CO2": 12,
+  "Heat": 5400,
+  "Coal": 600
+ } 
+}
